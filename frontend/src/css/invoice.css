@@ -1,0 +1,59 @@
+@media print {
+	body * {
+	  visibility: hidden;
+	}
+	.invoice-table, .invoice-table * {
+	  visibility: visible;
+	}
+	.invoice-table {
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	}
+  }
+
+table.meta th {
+  width: 40%;
+}
+th {
+  background: #eee;
+  border-color: #bbb;
+}
+th,
+td {
+  border-radius: 0.25em;
+  border-width: 1px !important;
+}
+th,
+td {
+  border-width: 1px;
+  padding: 0.5em;
+  position: relative;
+  text-align: left;
+  width: 100px;
+}
+
+table.inventory {
+  clear: both;
+  width: 100%;
+}
+
+table.inventory {
+  margin: 0 0 3em;
+}
+
+table.meta,
+table.balance {
+  float: right;
+  width: 36%;
+}
+
+.text-compony {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.text-address{
+	font-size: 18px;
+}
+
