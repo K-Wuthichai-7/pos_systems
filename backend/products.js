@@ -15,7 +15,7 @@ const products = [
     desc: "อาหารเสริม",
     price: 199,
     image:
-      "https://www.tvdirect.tv/goodsimg/0000/125/812/125812_B.jpg",
+      "https://image.gmmoshopping.com/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/1/0/1000x1000_127589-1.jpg",
   },
   {
     id: 3,
